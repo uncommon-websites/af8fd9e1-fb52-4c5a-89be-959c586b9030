@@ -83,5 +83,22 @@
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Ready for a bag that becomes part of your story?"
+	subtitle="Step away from fast fashion"
+	description="Our leather goods are crafted by hand, designed for self-expression, and made to last—so you can invest in style that stays with you for life. Four decades of family craftsmanship meets award-winning design."
+	imageSrc="/generated/image-a-relaxed-confident-bohemian-woman-walki.webp"
+	callsToAction={[
+		{
+			href: "/shop",
+			label: "Shop the collection",
+			variant: "primary"
+		},
+		{
+			href: "/craftsmanship",
+			label: "See our story",
+			variant: "secondary"
+		}
+	]}
+/>

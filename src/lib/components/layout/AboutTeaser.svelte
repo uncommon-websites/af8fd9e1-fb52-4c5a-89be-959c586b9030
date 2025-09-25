@@ -21,9 +21,9 @@ A minimalist teaser for the about page.
 
 	// Data
 	const teamMember: TeamMember = {
-		name: "Alex Morgan",
-		role: "Founder & CEO",
-		image: "https://www.unc.mn/image-placeholder.svg"
+		name: "Isabella Cruz",
+		role: "Founder & Master Artisan",
+		image: "/generated/image-a-female-artisan-founder-working-in-a-su.webp"
 	};
 </script>
 
@@ -32,7 +32,7 @@ A minimalist teaser for the about page.
 		<div class="relative mx-auto grid max-w-2xl place-items-center gap-16">
 			<ScrollText
 				class="text-title1 text-center"
-				text={`"We're building the future of digital experiences, crafting innovative solutions that transform how people interact with technology in their everyday lives"`}
+				text={`"I grew up in my parents' workshop, where every bag started with a story and ended in someone's hands for life. After watching fast fashion erase so much meaning, I set out to revive our family's craft—creating leather goods that honor the past and are worthy of the next generation."`}
 			/>
 
 			<!-- Team Member & CTA Section -->
