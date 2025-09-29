@@ -11,22 +11,21 @@
 	// Constants
 	const values = [
 		{
-			title: "Innovation",
-			description: "Constantly challenging the status quo to create better solutions."
+			title: "Heritage craftsmanship",
+			description: "Four decades of family tradition, where master artisans transform premium leather into generational heirlooms using time-honored techniques."
 		},
 		{
-			title: "Integrity",
-			description: "Building trust through transparent actions and honest communication."
+			title: "Sustainable beauty",
+			description: "Creating lasting pieces that replace disposable fashion, reducing waste while celebrating the natural elegance of ethically-sourced materials."
 		},
 		{
-			title: "Impact",
-			description: "Measuring our success by the positive change we create for our clients."
+			title: "Artisan authenticity",
+			description: "Every piece tells a story of skilled hands and patient craft, honoring traditional methods while embracing modern bohemian spirit."
 		}
 	];
 </script>
 
 <SecondaryHero
-	generating
 	title="Solving world hunger"
 	subtitle="one step at a time"
 	imageSrc="https://www.unc.mn/image-placeholder.svg"
@@ -34,7 +33,6 @@
 
 <!-- Story Section -->
 <Story
-	generating
 	paragraphs={[
 		"We started in 2018 with a simple goal: make helpful tech that people actually need. While many chase profits, we chose to do things differently.",
 		"Beyond making good products, we care about doing the right thing, being kind to our planet, and making sure everyone can use what we build. That's our compass.",
@@ -44,61 +42,11 @@
 />
 
 <!-- Our Culture Section -->
-<Culture {values} generating />
-
-<!-- StakeholderGrid Section -->
-<StakeholderGrid
-	generating
-	stakeholderType="team"
-	title="Our team."
-	subtitle="Your partners in innovation."
-	stakeholders={[
-		{
-			name: "Alex Morgan",
-			position: "Founder & CEO",
-			bio: "Started the company with a vision to transform the industry through innovative solutions.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Jamie Chen",
-			position: "Chief Design Officer",
-			bio: "Award-winning designer with a passion for creating intuitive and beautiful experiences.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		},
-		{
-			name: "Taylor Wright",
-			position: "Head of Engineering",
-			bio: "Technology enthusiast focused on building scalable systems that make a difference.",
-			image: "https://www.unc.mn/image-placeholder.svg"
-		}
-	]}
-/>
-
-<StakeholderGrid
-	generating
-	stakeholderType="investor"
-	title="Backed by the best."
-	subtitle="Point Nine, TSIC and others"
-	stakeholders={[
-		{
-			name: "Point Nine Capital",
-			image: "https://cdn.brandfetch.io/pointnine.com/w/400/h/400/logo?c=1id_elLz2Bd5Ej-dWo7"
-		},
-		{
-			name: "TSIC Ventures",
-			image: "https://cdn.brandfetch.io/tiny.vc/w/400/h/400/logo?c=1a2b3c4d5e"
-		},
-		{
-			name: "Sequoia Capital",
-			image: "https://cdn.brandfetch.io/sequoiacap.com/w/400/h/400/logo"
-		}
-	]}
-/>
+<Culture {values} />
 
 <!-- CTA Section -->
 <CallToAction
-	generating
-	title="Ready to collaborate?"
-	subtitle="Let's create something amazing"
-	description="Join the companies already leveraging our expertise to transform their digital presence and achieve their business goals."
+	title="Discover your perfect piece"
+	subtitle="Crafted for the conscious woman"
+	description="Experience leather accessories that honor both tradition and your unique style. Each piece is thoughtfully designed to become a cherished part of your journey, from everyday adventures to life's most meaningful moments."
 />
