@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	title="Crafted to last. Made to be passed."
+	subtitle="Timeless leather bags handmade by artisans."
+	imageSrc="/generated/image-a-sophisticated-woman-with-a-bohemian-st.webp"
+	centered={false}
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by fashion-forward professionals"
+	logoUrls={[
+		'https://cdn.brandfetch.io/anthropologie.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/nordstrom.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/freepeople.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/modcloth.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
